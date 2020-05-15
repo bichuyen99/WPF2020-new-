@@ -1,0 +1,14 @@
+C:\Users\hp\source\repos\ConsoleApp27\ConsoleApp27\bin\Debug\ConsoleApp27.exe.config
+C:\Users\hp\source\repos\ConsoleApp27\ConsoleApp27\bin\Debug\ConsoleApp27.exe
+C:\Users\hp\source\repos\ConsoleApp27\ConsoleApp27\bin\Debug\ConsoleApp27.pdb
+C:\Users\hp\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.exe
+C:\Users\hp\source\repos\ConsoleApp27\ConsoleApp27\obj\Debug\ConsoleApp27.pdb
+C:\Users\hp\source\repos\Chapter 31 (12)\ConsoleApp27\bin\Debug\ConsoleApp27.exe.config
+C:\Users\hp\source\repos\Chapter 31 (12)\ConsoleApp27\bin\Debug\ConsoleApp27.exe
+C:\Users\hp\source\repos\Chapter 31 (12)\ConsoleApp27\bin\Debug\ConsoleApp27.pdb
+C:\Users\hp\source\repos\Chapter 31 (12)\ConsoleApp27\obj\Debug\ConsoleApp27.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\Chapter 31 (12)\ConsoleApp27\obj\Debug\ConsoleApp27.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Chapter 31 (12)\ConsoleApp27\obj\Debug\ConsoleApp27.exe
+C:\Users\hp\source\repos\Chapter 31 (12)\ConsoleApp27\obj\Debug\ConsoleApp27.pdb
