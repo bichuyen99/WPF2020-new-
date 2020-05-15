@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\draw circles\draw circles\bin\Debug\draw circles.exe.config
+C:\Users\hp\source\repos\draw circles\draw circles\bin\Debug\draw circles.exe
+C:\Users\hp\source\repos\draw circles\draw circles\bin\Debug\draw circles.pdb
+C:\Users\hp\source\repos\draw circles\draw circles\obj\Debug\draw circles.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\draw circles\draw circles\obj\Debug\draw circles.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\draw circles\draw circles\obj\Debug\draw circles.exe
+C:\Users\hp\source\repos\draw circles\draw circles\obj\Debug\draw circles.pdb
