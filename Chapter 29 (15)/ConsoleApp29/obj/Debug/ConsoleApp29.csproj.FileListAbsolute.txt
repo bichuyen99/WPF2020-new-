@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\ConsoleApp29\ConsoleApp29\bin\Debug\ConsoleApp29.exe.config
+C:\Users\hp\source\repos\ConsoleApp29\ConsoleApp29\bin\Debug\ConsoleApp29.exe
+C:\Users\hp\source\repos\ConsoleApp29\ConsoleApp29\bin\Debug\ConsoleApp29.pdb
+C:\Users\hp\source\repos\ConsoleApp29\ConsoleApp29\obj\Debug\ConsoleApp29.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ConsoleApp29\ConsoleApp29\obj\Debug\ConsoleApp29.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ConsoleApp29\ConsoleApp29\obj\Debug\ConsoleApp29.exe
+C:\Users\hp\source\repos\ConsoleApp29\ConsoleApp29\obj\Debug\ConsoleApp29.pdb
