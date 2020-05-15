@@ -1,0 +1,99 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <UniformGrid     Rows="2" Columns="2" TextBlock.FontSize="12pt">
+            <!-- create style of path, that consist of red stroke, blue fill inside
+            be aligned in center of horizontal and vertical; thick equal to 5-->
+            <UniformGrid.Resources>
+                <Style TargetType="{x:Type Path}">
+                    <Setter Property="HorizontalAlignment"  Value="Center" />
+                    <Setter Property="VerticalAlignment"  Value="Center" />
+                    <Setter Property="Fill" Value="Blue" />
+                    <Setter Property="Stroke" Value="Red" />
+                    <Setter Property="StrokeThickness"  Value="5" />
+                </Style>
+            </UniformGrid.Resources> 
+              <!-- GeometryCombineMode = "Union". 
+            combine 2 ellipses, the first one has center point (96,96), the other has center point (48,48)
+            both of them have the same radius 96 96 -->
+            <Grid>
+                <TextBlock HorizontalAlignment="Center">          
+                    GeometryCombineMode="Union"</TextBlock>
+                <Path>
+                    <Path.Data>
+                        <CombinedGeometry  GeometryCombineMode="Union">
+                            <CombinedGeometry.Geometry1>
+                                <EllipseGeometry  Center="96 96" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry1>
+                            <CombinedGeometry.Geometry2>
+                                <EllipseGeometry  Center="48 48" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry2>
+                        </CombinedGeometry>
+                    </Path.Data>
+                </Path>
+            </Grid>
+            <!-- GeometryCombineMode = "Intersect".
+            combine 2 ellipses, the first one has center point (96,96), the other has center point (48,48)
+            both of them have the same radius 96 96 -->
+            <Grid>
+                <TextBlock HorizontalAlignment="Center"> GeometryCombineMode="Intersect"</TextBlock>
+                <Path>
+                    <Path.Data>
+                        <CombinedGeometry  GeometryCombineMode="Intersect">
+                            <CombinedGeometry.Geometry1>
+                                <EllipseGeometry  Center="96 96" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry1>
+                            <CombinedGeometry.Geometry2>
+                                <EllipseGeometry  Center="48 48" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry2>
+                        </CombinedGeometry>
+                    </Path.Data>
+                </Path>
+            </Grid>
+            <!-- GeometryCombineMode = "Xor".
+            combine 2 ellipses, the first one has center point (96,96), the other has center point (48,48)
+            both of them have the same radius 96 96 -->
+            <Grid>
+                <TextBlock HorizontalAlignment="Center">          
+                    GeometryCombineMode="Xor"</TextBlock>
+                <Path>
+                    <Path.Data>
+                        <CombinedGeometry  GeometryCombineMode="Xor">
+                            <CombinedGeometry.Geometry1>
+                                <EllipseGeometry  Center="96 96" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry1>
+                            <CombinedGeometry.Geometry2>
+                                <EllipseGeometry  Center="48 48" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry2>
+                        </CombinedGeometry>
+                    </Path.Data>
+                </Path>
+            </Grid>
+            <!-- GeometryCombineMode = "Exclude". 
+            combine 2 ellipses, the first one has center point (96,96), the other has center point (48,48)
+            both of them have the same radius 96 96 -->
+            <Grid>
+                <TextBlock HorizontalAlignment="Center">        
+                    GeometryCombineMode="Exclude"</TextBlock>
+                <Path>
+                    <Path.Data>
+                        <CombinedGeometry  GeometryCombineMode="Exclude">
+                            <CombinedGeometry.Geometry1>
+                                <EllipseGeometry  Center="96 96" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry1>
+                            <CombinedGeometry.Geometry2>
+                                <EllipseGeometry  Center="48 48" RadiusX="96" RadiusY="96" />
+                            </CombinedGeometry.Geometry2>
+                        </CombinedGeometry>
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </UniformGrid>
+    </Grid>
+</Window>
