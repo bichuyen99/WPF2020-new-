@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\ConsoleApp26\ConsoleApp26\bin\Debug\ConsoleApp26.exe.config
+C:\Users\hp\source\repos\ConsoleApp26\ConsoleApp26\bin\Debug\ConsoleApp26.exe
+C:\Users\hp\source\repos\ConsoleApp26\ConsoleApp26\bin\Debug\ConsoleApp26.pdb
+C:\Users\hp\source\repos\ConsoleApp26\ConsoleApp26\obj\Debug\ConsoleApp26.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ConsoleApp26\ConsoleApp26\obj\Debug\ConsoleApp26.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ConsoleApp26\ConsoleApp26\obj\Debug\ConsoleApp26.exe
+C:\Users\hp\source\repos\ConsoleApp26\ConsoleApp26\obj\Debug\ConsoleApp26.pdb
