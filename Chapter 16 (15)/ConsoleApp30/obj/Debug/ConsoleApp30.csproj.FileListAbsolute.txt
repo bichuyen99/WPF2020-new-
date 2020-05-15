@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\ConsoleApp30\ConsoleApp30\bin\Debug\ConsoleApp30.exe.config
+C:\Users\hp\source\repos\ConsoleApp30\ConsoleApp30\bin\Debug\ConsoleApp30.exe
+C:\Users\hp\source\repos\ConsoleApp30\ConsoleApp30\bin\Debug\ConsoleApp30.pdb
+C:\Users\hp\source\repos\ConsoleApp30\ConsoleApp30\obj\Debug\ConsoleApp30.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ConsoleApp30\ConsoleApp30\obj\Debug\ConsoleApp30.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ConsoleApp30\ConsoleApp30\obj\Debug\ConsoleApp30.exe
+C:\Users\hp\source\repos\ConsoleApp30\ConsoleApp30\obj\Debug\ConsoleApp30.pdb
