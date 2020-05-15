@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\tinhtuoi\tinhtuoi\bin\Debug\tinhtuoi.exe.config
+C:\Users\hp\source\repos\tinhtuoi\tinhtuoi\bin\Debug\tinhtuoi.exe
+C:\Users\hp\source\repos\tinhtuoi\tinhtuoi\bin\Debug\tinhtuoi.pdb
+C:\Users\hp\source\repos\tinhtuoi\tinhtuoi\obj\Debug\tinhtuoi.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\tinhtuoi\tinhtuoi\obj\Debug\tinhtuoi.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\tinhtuoi\tinhtuoi\obj\Debug\tinhtuoi.exe
+C:\Users\hp\source\repos\tinhtuoi\tinhtuoi\obj\Debug\tinhtuoi.pdb
