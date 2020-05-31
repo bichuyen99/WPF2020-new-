@@ -1,0 +1,79 @@
+﻿<Window x:Class="WpfApp1._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="normal">
+            <Setter Property="Control.FontSize"  Value="16" />
+            <Setter Property="Control.Foreground"  Value="Black" />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+            <Setter Property="Control.Margin"  Value="8" />
+        </Style>
+        <Style x:Key="btn">
+            <Setter Property="Control.Width" Value="50" />
+            <Setter Property="Control.Height" Value="20" />
+            <Setter Property="Control.BorderBrush" Value="Red" />
+            <Setter Property="Control.Margin"  Value="8" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <DockPanel>
+            <StackPanel >
+                <TextBlock Text="GRAPHIC" FontWeight="Bold" FontSize="20" FontFamily="Arial" HorizontalAlignment="Center" ></TextBlock>
+               <Canvas x:Name="Graph" Width="400" Height="350" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Line  X1="40" Y1="10" X2="40" Y2="300" Stroke="Black" StrokeThickness="2" />
+                    <Line  X1="40" Y1="300" X2="350" Y2="300" Stroke="Black" StrokeThickness="2" />
+                    <Line  X1="40" Y1="10" X2="50" Y2="20" Stroke="Black" StrokeThickness="2" />
+                    <Line  X1="40" Y1="10" X2="30" Y2="20" Stroke="Black" StrokeThickness="2" />
+                    <Line  X1="350" Y1="300" X2="340" Y2="290" Stroke="Black" StrokeThickness="2" />
+                    <Line  X1="350" Y1="300" X2="340" Y2="310" Stroke="Black" StrokeThickness="2" />
+                    <TextBlock Text="x" Margin="350,300" FontSize="22"> </TextBlock>
+                    <TextBlock Text="y" Margin="20,0" FontSize="22"> </TextBlock>
+                    <TextBlock Text="0" Margin="30,300" FontSize="22"></TextBlock>
+                    <Path Name="myPath" Stroke="Red" StrokeThickness="2" > </Path>
+                </Canvas>
+            </StackPanel>
+            <StackPanel Background="LemonChiffon">
+                <TextBlock Text="INFORMATION" FontWeight="Bold" FontSize="20" FontFamily="Arial"  HorizontalAlignment="Center">
+                </TextBlock>
+                <DockPanel Width="274" Height="158">
+                    <StackPanel Width="149">
+                        <StackPanel.Resources>
+                            <Style BasedOn="{StaticResource ResourceKey=normal}" TargetType="{x:Type TextBlock}" />
+                        </StackPanel.Resources>
+                        <TextBlock Text="Start point in Ox:" />
+                        <TextBlock Text="Start point in Oy:" />
+                        <TextBlock Text="Start velocity v:" />
+                        <TextBlock Text="Angle a:" />
+                    </StackPanel>
+                    <StackPanel Width="125">
+                        <StackPanel.Resources>
+                            <Style BasedOn="{StaticResource ResourceKey=btn}" TargetType="{x:Type TextBox}" />
+                        </StackPanel.Resources>
+                        <TextBox Name="Oxtextbox" />
+                        <TextBox Name="Oytextbox"/>
+                        <TextBox Name="v0textbox"/>
+                        <TextBox Name="angletextbox"/>
+                    </StackPanel>
+                    <StackPanel/>
+                </DockPanel>
+                <DockPanel>
+                <Button Click="ButtonOnClick" FontWeight="Bold" FontSize="16" FontFamily="Arial" HorizontalAlignment="Left" Margin="60,0,0,0" >
+                    <Button Content="Result" Width="75"/>
+                </Button>
+                <Button Click="ButtonOnClick1" FontWeight="Bold" FontSize="16" FontFamily="Arial" HorizontalAlignment="Right" Margin="0,0,60,0" >
+                    <Button Content="Draw" Width="75"/>
+                </Button>
+                </DockPanel>
+                <DockPanel>
+                    <ListBox Name="calculate" FontSize="13" FontFamily="Arial">
+                    </ListBox>
+                </DockPanel>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>
