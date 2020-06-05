@@ -1,0 +1,5 @@
+Name	Score
+John	20
+Jenny	50
+Kevin	100
+Linda	80
