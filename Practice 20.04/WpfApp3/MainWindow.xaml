@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\hp\source\repos\WpfApp3\WpfApp3\image\dong co 2.jpg"></ImageBrush>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="word">
+            <Setter Property="Control.FontSize"  Value="25" />
+            <Setter Property="Control.Foreground"  Value="Gray" />
+            <Setter Property="Control.FontFamily" Value="Baskerville Old Face"/>
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+            <Setter Property="Control.Margin"  Value="8" />
+        </Style>
+        <Style x:Key="btn">
+            <Setter Property="Control.Width" Value="100" />
+            <Setter Property="Control.Height" Value="500" />
+            <Setter Property="Control.Foreground" Value="#FF296AC9"/>
+        </Style>
+    </Window.Resources>
+    <Canvas Name="cnv">
+        <StackPanel>
+            <DockPanel >
+                <DockPanel.Resources>
+                    <Style BasedOn= "{StaticResource ResourceKey = word}" TargetType="{x:Type TextBox}" />
+                </DockPanel.Resources>
+                <TextBox Text="Velocity" Name="v0textbox" Margin="310,100,0,0" />
+                <TextBox Text="Angle" Name="angletextbox" Margin="100,100,0,0" />
+            </DockPanel>
+            <DockPanel>
+                <DockPanel.Resources>
+                    <Style BasedOn="{StaticResource ResourceKey=btn}" TargetType="{x:Type Button}" />
+                    <Style BasedOn="{StaticResource ResourceKey=word}" TargetType="{x:Type Button}" />
+                </DockPanel.Resources>
+                <Button Content="PLAY" Click="play" Margin="320,50,0,0" />
+                <Button Content="EXIT" Click="exit" Margin="120,50,0,0" />
+            </DockPanel>
+        </StackPanel>
+        <Image Name="bird"  Source="C:\Users\hp\source\repos\WpfApp3\WpfApp3\image\birdg.png" Width="70" Canvas.Left="120" Canvas.Top="480" ></Image>
+        <Image Name="nest"  Source="C:\Users\hp\source\repos\WpfApp3\WpfApp3\image\birdnest.png" Width="108" Canvas.Left="750" Canvas.Top="510" ></Image>
+        <Polyline Name="poly" Stroke="Yellow" StrokeThickness="2" ></Polyline>
+    </Canvas>
+</Window>
+<!--MouseEnter="Bird_MouseEnter"
+     -->
