@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        mc:Ignorable="d"
+        Title="Comeback Home" HorizontalContentAlignment="Center" Height="450" Width="615">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\hp\source\repos\WpfApp4\WpfApp4\image\dong co 3.jpg"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="word">
+            <Setter Property="Control.FontSize"  Value="16" />
+            <Setter Property="Control.FontFamily"  Value="Showcard Gothic" />
+            <Setter Property="Control.Foreground"  Value="Black" />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+        </Style>
+        <Style x:Key="btnword">
+            <Setter Property="Control.FontSize"  Value="22" />
+            <Setter Property="Control.FontFamily"  Value="Algerian" />
+            <Setter Property="Control.Foreground"  Value="#FFBD9165" />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+        </Style>
+        <Style x:Key="btn">
+            <Setter Property="Control.Width" Value="100" />
+            <Setter Property="Control.Height" Value="50" />
+            <Setter Property="Control.Background" Value="LemonChiffon"/>
+        </Style>
+    </Window.Resources>
+    <Canvas Name="MyCanvas">
+        <Image Source="C:\Users\hp\source\repos\WpfApp4\WpfApp4\image\bird nest.png" Name="Nest" Width="92" Height="65" Canvas.Left="468" Canvas.Top="329"/>
+        <Image Source="C:\Users\hp\source\repos\WpfApp4\WpfApp4\image\birdg.png" Name="redgirl" Margin="71,267,456,72" Width="80" Height="80"></Image>
+        <Image Source="C:\Users\hp\source\repos\WpfApp4\WpfApp4\image\birdb.png" Name="redboy" Width="90" Height="90" Margin="71,310,446,19" ></Image>
+        <Image Source="C:\Users\hp\source\repos\WpfApp4\WpfApp4\image\birdy.png" Name="yellowboy" Width="85" Height="85" Margin="10,280,512,54" ></Image>
+        <StackPanel Canvas.Left="226" Canvas.Top="166">
+            <StackPanel.Resources>
+                <Style BasedOn ="{StaticResource ResourceKey=btn}" TargetType="{x:Type Button}" />
+                <Style BasedOn ="{StaticResource ResourceKey=word}" TargetType="{x:Type TextBox}" />
+                <Style BasedOn ="{StaticResource ResourceKey=btnword}" TargetType="{x:Type Button}" />
+            </StackPanel.Resources>
+            <Button Name="playbtn" Click="btnplay" Content="PLAY" Margin="0,50,0,13" Foreground="#FFCF7011"/>
+            <Button Name="instrubtn" Click="btninstru" Content="INSTRUCTION" Margin="13" Foreground="#FFCF7011"/>
+            <Button Name="setbtn" Click="btnset" Content="SETTING" Margin="13" Foreground="#FFCF7011"/>
+        </StackPanel>
+        <Label Name="lbl" Content="COMEBACK HOME" FontFamily="Showcard Gothic" FontSize="48" Foreground="#FF522F9C" HorizontalAlignment="Center" Canvas.Left="86" Canvas.Top="97" />
+
+    </Canvas>
+</Window>
