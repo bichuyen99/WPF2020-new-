@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="900">
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\hp\source\repos\Practice 20.04\WpfApp3\image\dong co 2.jpg"></ImageBrush>
+        <ImageBrush ImageSource="dong co 2.jpg"></ImageBrush>
     </Window.Background>
     <Window.Resources>
         <Style x:Key="word">
@@ -34,16 +34,15 @@
             </DockPanel>
             <DockPanel>
                 <DockPanel.Resources>
-                    <Style BasedOn="{StaticResource ResourceKey=btn}" TargetType="{x:Type Button}" />
                     <Style BasedOn="{StaticResource ResourceKey=word}" TargetType="{x:Type Button}" />
                 </DockPanel.Resources>
                 <Button Content="PLAY" Click="play" Margin="320,50,0,0" />
                 <Button Content="EXIT" Click="exit" Margin="120,50,0,0" />
             </DockPanel>
         </StackPanel>
-        <Image Name="bird"  Source="C:\Users\hp\source\repos\Practice 20.04\WpfApp3\image\birdg.png" Width="70" Canvas.Left="120" Canvas.Top="480" ></Image>
-        <Image Name="nest"  Source="C:\Users\hp\source\repos\Practice 20.04\WpfApp3\image\birdnest.png" Width="108" Canvas.Left="750" Canvas.Top="510" ></Image>
-        <Polyline Name="poly" Stroke="Yellow" StrokeThickness="2" ></Polyline>
+        <Image Name="bird"  Source="birdg.png" Width="70" Canvas.Left="120" Canvas.Top="480" ></Image>
+        <Image Name="nest"  Source="birdnest.png" Width="108" Canvas.Left="750" Canvas.Top="510" ></Image>
+        <Polyline Name="pln" Stroke="Yellow" StrokeThickness="2" ></Polyline>
     </Canvas>
 </Window>
 
